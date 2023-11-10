@@ -141,6 +141,23 @@ section>div {
   background-image: url("../images/02-portfolio-4.jpg");
 }
 
+.contact-info {
+  background-color: white;
+  padding: 8px 10px;
+  margin: .5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resume-info {
+  background-color: white;
+  padding: 8px 10px;
+  margin: .5rem;
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   margin-top: 5rem;
 }
