@@ -101,27 +101,32 @@ section>div {
   min-height: 320px;
   flex-basis: 100%;
 }
-.work-section a div {
+.image-title {
   background-color: white;
   padding: 8px 10px;
 }
-.project-1 {
+.image-title:hover {
+  background-color: green;
+  padding: 8px 10px;
+}
+
+#project-1 {
   background-image: url("../images/02-horiseon-snip.png");
 }
 
-.project-2 {
+#project-2 {
   background-image: url("../images/02-portfolio-1.jpg");
 }
 
-.project-3 {
+#project-3 {
   background-image: url("../images/02-portfolio-2.jpg");
 }
 
-.project-4 {
+#project-4 {
   background-image: url("../images/02-portfolio-3.jpg");
 }
 
-.project-5 {
+#project-5 {
   background-image: url("../images/02-portfolio-4.jpg");
 }
 
@@ -129,3 +134,9 @@ footer {
   margin-top: 5rem;
 }
 
+@media screen and (max-width: 500px) {
+  .image-title {
+    background-color: rgb(100, 69, 69);
+    padding: 8px 10px;
+  }
+}
